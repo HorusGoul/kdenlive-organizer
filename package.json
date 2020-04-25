@@ -1,0 +1,19 @@
+{
+  "name": "kdenlive-organizer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Horus Lugo",
+  "license": "MIT",
+  "bin": {
+    "kdenlive-organizer": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "jsdom": "^16.2.2",
+    "mime-types": "^2.1.27",
+    "mkdirp": "^1.0.4",
+    "move-file": "^2.0.0"
+  }
+}
